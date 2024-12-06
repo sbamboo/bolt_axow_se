@@ -1,0 +1,120 @@
+{
+    "category": "timeperiods",
+    "page": "freelands_period",
+
+    "meta": {
+        "title": "The Freelands Period",
+        "short_description": "Fun times!"
+    },
+
+    "infobox": [
+        {
+            "type": "title",
+            "content": "%META.title%",
+            "attribute_id": "name"
+        },
+
+        {
+            "type": "banner",
+            "content": "$timeperiods/freelands_period/banner.png",
+            "attribute_id": "banner"
+        },
+        {
+            "type": "banner_source",
+            "content": "!MARKDOWN!",
+            "attribute_id": "banner_source"
+        },
+        {
+            "type": "attributed_time",
+            "title": "Started",
+            "time": {
+                "__note__": "#Starttime and previous period",
+                "period": "$timeperiods/old_centrum_days",
+                "date": "xx-xx-xxxx"
+            },
+            "description": "New players joined and moved there. (See $cities/freelands)",
+            "attribute_id": "started"
+        },
+        {
+            "type": "attributed_time",
+            "title": "Ended",
+            "time": {
+                "__note__": "#Endtime and following period",
+                "period": "$timeperiods/newer_old_centrum_days",
+                "date": "xx-xx-xxxx"
+            },
+            "description": "New server, new capital, new players. (See $server/theaxolot77)",
+            "attribute_id": "ended"
+        },
+        {
+            "type": "attribute",
+            "title": "Status",
+            "content": "Ended",
+            "attribute_id": "status"
+        },
+
+        {
+            "type": "header",
+            "content": "Historic Events"
+        },
+        {
+            ">MERGE.FROM<": "started",
+            "description": "",
+            "attribute_id": "historic_event_started"
+        },
+        {
+            ">MERGE.FROM<": "ended",
+            "description": "",
+            "attribute_id": "historic_event_ended"
+        }
+
+    ],
+
+    "sections": [
+        {
+            "type": "introduction",
+            "content": "!MARKDOWN!"
+        },
+        {
+            "type": "timeline",
+            "name": "Timeline",
+            "content": {
+                "xx-xx-xxxx": {
+                    "title": "!TEXT!",
+                    "description": "!MARKDOWN!"
+                }
+            }
+        },
+        {
+            "type": "media_grid",
+            "name": "Gallery",
+            "content": [
+                {
+                    "type": "image",
+                    "media": "!URL!",
+                    "alt": "",
+                    "desc": "!MARKDOWN!"
+                }
+            ]
+        },
+        {
+            "type": "sources",
+            "name": "Sources",
+            "content": [
+                {
+                    "text": "!TEXT!",
+                    "href": "!URL!",
+                    "time": "xx-xx-xxxx"
+                }
+            ]
+        }
+    ],
+
+    "comments": [
+        {
+            "by": "@TheAxolot77",
+            "time": "xx-xx-xxxx",
+            "content": "!MARKDOWN!"
+        }
+    ]
+}

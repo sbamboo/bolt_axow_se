@@ -1,0 +1,23 @@
+.wikipage-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    position: relative;
+    background: var(--card-bg);
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.wikipage-wrapper {
+    padding: 20px 20px 30px 20px
+}
+
+/* Media query for mobile */
+@media (max-width: 591px) {
+    .wikipage-container {
+        max-width: 800px;
+    }
+    .return-cross {
+        position: absolute;
+        top: -50px;
+        right: 10px;
+    }
+}

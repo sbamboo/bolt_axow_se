@@ -1,0 +1,134 @@
+{
+    "category": "pois",
+    "page": "freelands_duck",
+
+    "meta": {
+        "title": "The Freelands Duck",
+        "short_description": "@Daktordoom's duck!"
+    },
+
+    "infobox": [
+        {
+            "type": "title",
+            "content": "%META.title%",
+            "attribute_id": "name"
+        },
+
+        {
+            "type": "banner",
+            "content": "$pois/freelands_duck/banner.png",
+            "attribute_id": "banner"
+        },
+        {
+            "type": "banner_source",
+            "content": "!MARKDOWN!",
+            "attribute_id": "banner_source"
+        },
+
+        {
+            "type": "attributed_profile",
+            "title": "Creators",
+            "profiles": ["@Daktordoom"],
+            "attribute_id": "creators"
+        },
+        {
+            "type": "attributed_profile",
+            "title": "Owners",
+            "profiles": ["@Daktordoom"],
+            "attribute_id": "owners"
+        },
+        {
+            "type": "attribute",
+            "title": "Status",
+            "content": "",
+            "attribute_id": "status"
+        },
+        {
+            "type": "attribute",
+            "title": "Access",
+            "content": "Private",
+            "attribute_id": "access"
+        },
+        {
+            "type": "attribute",
+            "title": "Usage",
+            "content": "Home",
+            "attribute_id": "home"
+        },
+
+        {
+            "type": "header",
+            "content": "Geography"
+        },
+        {
+            "type": "attribute",
+            "title": "Place",
+            "content": "$cities/freelands",
+            "attribute_id": "place"
+        },
+        {
+            "type": "attributed_location",
+            "title": "Coordinates",
+            "content": ["4328","-1797"],
+            "attribute_id": "coordinates"
+        },
+
+        {
+            "type": "header",
+            "content": "Historic Events"
+        },
+        {
+            "type": "attributed_time",
+            "title": "Built",
+            "time": {
+                "period": "$timeperiods/freelands_period",
+                "date": "xx-xx-xxxx"
+            },
+            "description": "",
+            "attribute_id": "historic_event_built"
+        }
+    ],
+
+    "sections": [
+        {
+            "type": "introduction",
+            "content": "!MARKDOWN!"
+        },
+        {
+            "type": "text",
+            "name": "Text",
+            "content": "!MARKDOWN!"
+        },
+        {
+            "type": "media_grid",
+            "name": "Gallery",
+            "content": [
+                {
+                    "type": "image",
+                    "media": "!URL!",
+                    "alt": "",
+                    "desc": "!MARKDOWN!"
+                }
+            ]
+        },
+        {
+            "type": "sources",
+            "name": "Sources",
+            "content": [
+                {
+                    "text": "!TEXT!",
+                    "href": "!URL!",
+                    "time": "xx-xx-xxxx"
+                }
+            ]
+        }
+    ],
+
+    "comments": [
+        {
+            "by": "@TheAxolot77",
+            "time": "xx-xx-xxxx",
+            "content": "!MARKDOWN!"
+        }
+    ]
+}

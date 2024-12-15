@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <nav class="header-nav">
       <div class="header-logo ${currentPath === '/' || currentPath === '/index.html' ? 'no-link' : ''}">
         ${currentPath === '/' || currentPath === '/index.html' 
-          ? '<img src="https://sbamboo.github.io/theaxolot77/assets/logo_theaxo77.png" alt="Home" />'
-          : '<a href="/index.html"><img src="https://sbamboo.github.io/theaxolot77/assets/logo_theaxo77.png" alt="Home" /></a>'
+          ? '<img src="/assets/images/site_logo.png" alt="Home" />'
+          : '<a href="/index.html"><img src="/assets/images/site_logo.png" alt="Home" /></a>'
         }
       </div>
       <button class="nav-toggle">
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="dropdown-arrow material-icons">expand_more</span>
           </button>
           <div class="dropdown-content">
-            <a href="/projects/minecraft/theaxolot77_server/index.html" class="dropdown-item">Server</a>
+            <a href="/projects/minecraft/axo77_server/index.html" class="dropdown-item">Server</a>
             <a href="https://sbamboo.github.io/mcc-web/" class="dropdown-item" target="_blank" rel="noopener noreferrer">
               MCC Installer
               <svg class="external-link-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

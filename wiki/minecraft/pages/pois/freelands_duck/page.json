@@ -1,4 +1,5 @@
 {
+    "group": "axo77_srv",
     "category": "pois",
     "page": "freelands_duck",
 
@@ -10,7 +11,7 @@
     "infobox": [
         {
             "type": "title",
-            "content": "%META.title%",
+            "content": "%meta.title%",
             "attribute_id": "name"
         },
 
@@ -96,12 +97,12 @@
         },
         {
             "type": "text",
-            "name": "Text",
+            "title": "Text",
             "content": "!MARKDOWN!"
         },
         {
             "type": "media_grid",
-            "name": "Gallery",
+            "title": "Gallery",
             "content": [
                 {
                     "type": "image",
@@ -113,9 +114,10 @@
         },
         {
             "type": "sources",
-            "name": "Sources",
+            "title": "Sources",
             "content": [
                 {
+                    "id": 1,
                     "text": "!TEXT!",
                     "href": "!URL!",
                     "time": "xx-xx-xxxx"
@@ -127,8 +129,9 @@
     "comments": [
         {
             "by": "@TheAxolot77",
-            "time": "xx-xx-xxxx",
-            "content": "!MARKDOWN!"
+            "title": "!TEXT!",
+            "content": "!MARKDOWN!",
+            "posted": "xx-xx-xxxx"
         }
     ]
 }

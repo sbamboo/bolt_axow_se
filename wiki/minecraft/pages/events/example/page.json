@@ -1,4 +1,5 @@
 {
+    "group": "axo77_srv",
     "category": "events",
     "page": "example",
 
@@ -10,7 +11,7 @@
     "infobox": [
         {
             "type": "title",
-            "content": "%META.title%",
+            "content": "%meta.title%",
             "attribute_id": "name"
         },
 
@@ -31,13 +32,18 @@
             "content": [
                 {
                     "name": "By",
-                    "type": "descripted_profiles",
+                    "type": "profiles",
                     "value": ["@TheAxolot77"],
-                    "description": "Because of example",
                     "attribute_id": "arranged_by"
+                },
+                {
+                    "name": "Beacause of",
+                    "type": "text",
+                    "value": "!TEXT!",
+                    "attribute_id": "arranged_because"
                 }
             ],
-            "attribute_id": "arranged_by"
+            "attribute_id": "arranged"
         },
         {
             "type": "metadata",
@@ -100,7 +106,7 @@
         },
         {
             "type": "timeline",
-            "name": "Timeline",
+            "title": "Timeline",
             "content": {
                 "xx-xx-xxxx": {
                     "title": "!TEXT!",
@@ -110,7 +116,7 @@
         },
         {
             "type": "media_grid",
-            "name": "Gallery",
+            "title": "Gallery",
             "content": [
                 {
                     "type": "image",
@@ -122,9 +128,10 @@
         },
         {
             "type": "sources",
-            "name": "Sources",
+            "title": "Sources",
             "content": [
                 {
+                    "id": 1,
                     "text": "!TEXT!",
                     "href": "!URL!",
                     "time": "xx-xx-xxxx"
@@ -136,8 +143,9 @@
     "comments": [
         {
             "by": "@TheAxolot77",
-            "time": "xx-xx-xxxx",
-            "content": "!MARKDOWN!"
+            "title": "!TEXT!",
+            "content": "!MARKDOWN!",
+            "posted": "xx-xx-xxxx"
         }
     ]
 }

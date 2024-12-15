@@ -1,6 +1,6 @@
 {
     "name": "TheAxolot77",
-    "image": "https://sbamboo.github.io/theaxolot77/assets/logo_theaxo77.png",
+    "image": "profile.png",
     "description": "Owner of the site.",
     "title": "Owner",
     "socials": {
@@ -17,6 +17,6 @@
         "domain": ""
     },
     "sections": {
-        "theaxolot77_mcsrv": "Owns TheAxolot77's server!"
+        "axo77_server": "Owns TheAxolot77's server!"
     }
 }
